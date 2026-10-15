@@ -45,4 +45,4 @@
 - [x] Provide `GET /manus-routes.json` with the complete public route set.
 - [x] Verify the project runs on the configured runtime port and preview is reachable.
 - [x] Verify desktop and mobile layouts, keyboard focus, FAQ/chat/theme/form states, and reduced-motion fallback.
-- [ ] Save a checkpoint and publish a live version when the build is validated.
+- [x] Save a checkpoint and publish a live version when the build is validated.
