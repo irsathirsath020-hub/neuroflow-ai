@@ -3,7 +3,7 @@
   const $=(s,c=document)=>c.querySelector(s); const $$=(s,c=document)=>[...c.querySelectorAll(s)];
   const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const video=$('#bg-video'); const videoPoster=$('.video-poster'); const progress=$('.scroll-progress span'); const header=$('[data-header]');
-  const workflowTrack=$('[data-workflow-track]'); const workflowLine=$('.workflow-line span');
+  const workflowTrack=$('[data-workflow-track]'); const workflowLine=$('.workflow-line span'); const videoTimeReadout=$('[data-video-time]');
   let duration=0, lastVideoTime=-1;
 
   function setVideoFromScroll(){
@@ -12,6 +12,7 @@
     const p=max>0?Math.min(1,Math.max(0,window.scrollY/max)):0;
     const next=p*duration;
     if(Math.abs(next-lastVideoTime)>.025){ video.currentTime=next; lastVideoTime=next; }
+    if(videoTimeReadout) videoTimeReadout.textContent=`${String(Math.floor(next/60)).padStart(2,'0')}:${String(Math.floor(next%60)).padStart(2,'0')}`;
   }
   function updateWorkflowProgress(){
     if(!workflowTrack||!workflowLine) return;
