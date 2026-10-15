@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080914" />
+    <meta name="description" content="Neuroflow turns noisy inputs into clear decisions, faster — with an AI workspace built for momentum." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Neuroflow AI — Signal in. Momentum out." />
+    <meta property="og:description" content="An AI decision layer for teams that need to move from data to direction." />
+    <meta property="og:image" content="/assets/flow-poster.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Neuroflow AI — Signal in. Momentum out." />
+    <meta name="twitter:description" content="An AI decision layer for teams that need to move from data to direction." />
+    <link rel="icon" href="/assets/flow-poster.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Neuroflow AI — Signal in. Momentum out.</title>
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <div class="video-shell" aria-hidden="true">
+      <div class="video-poster"></div>
+      <video id="bg-video" class="background-video" muted playsinline preload="auto" poster="/assets/flow-poster.jpg">
+        <source src="/assets/flow-mobile.mp4" media="(max-width: 720px)" type="video/mp4" />
+        <source src="/assets/flow-desktop.mp4" type="video/mp4" />
+      </video>
+      <div class="video-scrim"></div>
+      <div class="video-vignette"></div>
+      <div class="grid-noise"></div>
+      <div class="particles"><i style="--x:8%;--y:28%;--d:7s"></i><i style="--x:19%;--y:71%;--d:9s"></i><i style="--x:31%;--y:16%;--d:8s"></i><i style="--x:46%;--y:82%;--d:11s"></i><i style="--x:61%;--y:24%;--d:10s"></i><i style="--x:76%;--y:63%;--d:8s"></i><i style="--x:88%;--y:18%;--d:12s"></i><i style="--x:93%;--y:79%;--d:9s"></i></div>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Neuroflow home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>neuroflow<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#features" data-nav="features">Capabilities</a>
+        <a href="#workflow" data-nav="workflow">Workflow</a>
+        <a href="#use-cases" data-nav="use-cases">Use cases</a>
+        <a href="#pricing" data-nav="pricing">Pricing</a>
+        <a href="#faq" data-nav="faq">FAQ</a>
+        <a href="#contact" data-nav="contact">Start</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Toggle light mode" title="Toggle light mode"><span class="theme-sun">☼</span><span class="theme-moon">◐</span></button>
+        <a class="button button-small button-ghost desktop-cta" href="#contact">Talk to us <span>↗</span></a>
+        <button class="menu-toggle icon-button" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      </div>
+      <div class="mobile-menu" aria-hidden="true">
+        <a href="#features">Capabilities</a><a href="#workflow">Workflow</a><a href="#use-cases">Use cases</a><a href="#pricing">Pricing</a><a href="#contact">Talk to us ↗</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad" data-section="top">
+        <div class="hero-content reveal">
+          <div class="eyebrow"><span class="eyebrow-pulse"></span> The intelligence layer for ambitious teams</div>
+          <h1>Signal in.<br /><span class="gradient-text">Momentum out.</span></h1>
+          <p class="hero-copy">Neuroflow turns scattered inputs into clear next moves — so your team can spend less time searching and more time shipping.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Get started <span>↗</span></a>
+            <a class="button button-play" href="#workflow"><span class="play-icon">▶</span> Watch demo <span class="button-arrow">↓</span></a>
+          </div>
+          <div class="hero-meta"><span><b class="status-dot"></b> Systems online</span><span>Trusted by 2,000+ teams</span></div>
+        </div>
+        <div class="hero-side reveal delay-1">
+          <div class="hero-orbit"><span class="orbit-ring ring-one"></span><span class="orbit-ring ring-two"></span><span class="orbit-core">N<span>F</span></span><span class="orbit-label label-top">raw signal</span><span class="orbit-label label-bottom">clear direction</span></div>
+          <div class="hero-note"><span class="note-line"></span><span>Decision velocity<br /><strong>+42%</strong> this quarter</span></div>
+        </div>
+        <div class="hero-scroll"><span>Scroll to explore</span><span class="scroll-line"></span></div>
+      </section>
+
+      <section class="signal-strip section-pad" aria-label="Neuroflow metrics">
+        <div class="metric"><strong data-count="2400">0</strong><span>teams moving faster</span></div>
+        <div class="metric"><strong data-count="98.6" data-decimal="1">0</strong><span>% signal accuracy</span></div>
+        <div class="metric"><strong data-count="14" data-suffix="x">0</strong><span>faster to first insight</span></div>
+        <div class="metric metric-caption"><span class="signal-bars"><i></i><i></i><i></i><i></i><i></i></span><span>Live intelligence, always on</span></div>
+      </section>
+
+      <section id="features" class="section section-pad" data-section="features">
+        <div class="section-heading reveal"><div><span class="eyebrow">01 / Capabilities</span><h2>More signal.<br /><span class="muted-gradient">Less noise.</span></h2></div><p>One calm layer across the messy middle of modern work — from first input to final decision.</p></div>
+        <div class="feature-grid">
+          <article class="glass-card feature-card reveal"><span class="card-index">01</span><div class="feature-icon">✦</div><h3>Multimodal intake</h3><p>Drop in notes, calls, docs, dashboards, or raw thoughts. Neuroflow finds the thread.</p><span class="card-link">Explore inputs <b>↗</b></span></article>
+          <article class="glass-card feature-card reveal delay-1"><span class="card-index">02</span><div class="feature-icon">⌁</div><h3>Pattern discovery</h3><p>Surface the signal hiding between channels, teams, and the data you already own.</p><span class="card-link">See the signal <b>↗</b></span></article>
+          <article class="glass-card feature-card reveal delay-2"><span class="card-index">03</span><div class="feature-icon">◎</div><h3>Decision trails</h3><p>Keep the context behind every call — searchable, explainable, and ready to share.</p><span class="card-link">Trace the why <b>↗</b></span></article>
+          <article class="glass-card feature-card reveal"><span class="card-index">04</span><div class="feature-icon">◌</div><h3>Live signals</h3><p>Stay ahead of shifts with a living view of momentum, risk, and opportunity.</p><span class="card-link">Monitor momentum <b>↗</b></span></article>
+          <article class="glass-card feature-card reveal delay-1"><span class="card-index">05</span><div class="feature-icon">↗</div><h3>Team-ready outputs</h3><p>Turn analysis into briefs, plans, and updates that are already built for action.</p><span class="card-link">Make it useful <b>↗</b></span></article>
+          <article class="glass-card feature-card feature-card-accent reveal delay-2"><span class="card-index">06</span><div class="feature-icon">◈</div><h3>Built for trust</h3><p>Your workspace stays private, permissioned, and transparent from day one.</p><span class="card-link">Read our principles <b>↗</b></span></article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section workflow-section section-pad" data-section="workflow">
+        <div class="section-heading reveal"><div><span class="eyebrow">02 / Workflow</span><h2>From raw<br /><span class="gradient-text">to remarkable.</span></h2></div><p>Four deliberate moves from “we should look into this” to “here’s what we do next.”</p></div>
+        <div class="workflow-track" data-workflow-track>
+          <div class="workflow-line"><span></span></div>
+          <div class="workflow-step reveal" data-step="1"><div class="step-number">01</div><div><span class="step-label">Input</span><h3>Bring the mess.</h3><p>Collect every relevant signal in one place, without changing how your team works.</p></div></div>
+          <div class="workflow-step reveal delay-1" data-step="2"><div class="step-number">02</div><div><span class="step-label">AI processing</span><h3>Let the patterns emerge.</h3><p>Neuroflow connects context, detects themes, and makes the meaningful parts visible.</p></div></div>
+          <div class="workflow-step reveal delay-2" data-step="3"><div class="step-number">03</div><div><span class="step-label">Smart output</span><h3>Make it legible.</h3><p>Get a clear brief, a sharp recommendation, or a plan your team can use immediately.</p></div></div>
+          <div class="workflow-step reveal delay-3" data-step="4"><div class="step-number">04</div><div><span class="step-label">Results</span><h3>Move with confidence.</h3><p>Decisions compound when everyone can see the signal and the next step.</p></div></div>
+        </div>
+      </section>
+
+      <section id="use-cases" class="section section-pad" data-section="use-cases">
+        <div class="section-heading reveal"><div><span class="eyebrow">03 / Use cases</span><h2>Make your<br /><span class="muted-gradient">best thinking repeatable.</span></h2></div><p>Neuroflow meets your team where momentum gets stuck — then gives it a way through.</p></div>
+        <div class="use-case-layout"><div class="use-case-list"><button class="use-case active" data-case="product"><span>01</span><strong>Product & research</strong><b>↗</b></button><button class="use-case" data-case="revenue"><span>02</span><strong>Revenue & growth</strong><b>↗</b></button><button class="use-case" data-case="ops"><span>03</span><strong>Operations & execs</strong><b>↗</b></button></div><div class="use-case-panel glass-card"><div class="panel-orbit">◎</div><span class="eyebrow">Product & research</span><h3>Turn every conversation into product clarity.</h3><p>Find recurring pain, sharpen the roadmap, and keep discovery close to the decisions it informs.</p><div class="panel-foot"><span>Signal index</span><strong>+68%</strong></div></div></div>
+      </section>
+
+      <section id="pricing" class="section section-pad pricing-section" data-section="pricing">
+        <div class="section-heading reveal"><div><span class="eyebrow">04 / Pricing</span><h2>A clear plan<br /><span class="gradient-text">for every pace.</span></h2></div><p>Start with the signal you need now. Scale when the work compounds.</p></div>
+        <div class="pricing-grid">
+          <article class="price-card glass-card reveal"><span class="price-kicker">For curious teams</span><h3>Starter</h3><p class="price">$0 <small>/ forever</small></p><p>Make your first signal visible.</p><ul><li>3 active workflows</li><li>1,000 monthly inputs</li><li>Shared decision canvas</li></ul><a class="button button-ghost" href="#contact">Start free <span>↗</span></a></article>
+          <article class="price-card glass-card featured-price reveal delay-1"><div class="popular-tag">Most momentum</div><span class="price-kicker">For teams in motion</span><h3>Scale</h3><p class="price">$24 <small>/ seat / month</small></p><p>Turn insight into a team habit.</p><ul><li>Unlimited workflows</li><li>Live signal monitoring</li><li>Advanced decision trails</li></ul><a class="button button-primary" href="#contact">Get moving <span>↗</span></a></article>
+          <article class="price-card glass-card reveal delay-2"><span class="price-kicker">For operating systems</span><h3>Enterprise</h3><p class="price">Let’s talk</p><p>Build an intelligence layer that lasts.</p><ul><li>Custom data connectors</li><li>Private deployment options</li><li>Dedicated signal support</li></ul><a class="button button-ghost" href="#contact">Talk to us <span>↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="section testimonial-section section-pad"><div class="quote-mark reveal">“</div><blockquote class="reveal">The moment Neuroflow clicked, our weekly planning went from a debate about what happened to a decision about what’s next.</blockquote><div class="testimonial-grid"><article class="testimonial-card glass-card reveal"><span class="quote-small">“</span><p>We stopped asking where the signal lived. It’s now part of how we run the room.</p><div class="quote-by"><span class="avatar">AT</span><span><strong>Amara T.</strong><small>VP Product, Northstar</small></span></div></article><article class="testimonial-card glass-card reveal delay-1"><span class="quote-small">“</span><p>Neuroflow gave our research a memory — and our roadmap a much sharper point of view.</p><div class="quote-by"><span class="avatar">JR</span><span><strong>Jon R.</strong><small>Head of Growth, Fieldwork</small></span></div></article><article class="testimonial-card glass-card reveal delay-2"><span class="quote-small">“</span><p>The difference is not more data. It’s knowing what deserves our attention next.</p><div class="quote-by"><span class="avatar">SK</span><span><strong>Sana K.</strong><small>COO, Meridian</small></span></div></article></div></section>
+
+      <section id="faq" class="section section-pad faq-section" data-section="faq"><div class="section-heading reveal"><div><span class="eyebrow">05 / FAQ</span><h2>Good questions<br /><span class="muted-gradient">move things forward.</span></h2></div><p>Still wondering? Ask the chat bubble — or reach out and we’ll show you around.</p></div><div class="faq-list"><details class="faq-item reveal" open><summary>What does Neuroflow actually do?<span>+</span></summary><p>Neuroflow is an AI decision layer: it brings together the inputs your team already has, finds the patterns that matter, and turns them into clear, shareable next steps.</p></details><details class="faq-item reveal"><summary>Will it work with our existing tools?<span>+</span></summary><p>Yes. The workspace is designed to start with simple uploads and expand into connected sources as your team builds confidence.</p></details><details class="faq-item reveal"><summary>How do you handle sensitive data?<span>+</span></summary><p>Your workspace is permissioned by design. We keep explanations close to outputs, so teams can understand what shaped a recommendation.</p></details><details class="faq-item reveal"><summary>Can I change plans later?<span>+</span></summary><p>Absolutely. Start small, then add teammates, workflows, and connectors as your operating rhythm grows.</p></details></div></section>
+
+      <section id="contact" class="final-cta section-pad" data-section="contact"><div class="cta-orbit" aria-hidden="true"></div><div class="eyebrow reveal">Ready when you are</div><h2 class="reveal">Give your next<br /><span class="gradient-text">good idea a signal.</span></h2><p class="reveal">Join the early access list and see what your team can do with a little less noise.</p><form class="signup-form reveal" novalidate><label class="sr-only" for="email">Work email</label><input id="email" type="email" placeholder="you@company.com" autocomplete="email" required /><button class="button button-primary" type="submit">Get early access <span>↗</span></button><small class="form-message" role="status"></small></form></section>
+    </main>
+
+    <footer class="site-footer section-pad"><div class="footer-top"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>neuroflow<span class="brand-dot">.</span></span></a><span class="footer-status"><b class="status-dot"></b> All systems nominal</span><span>© 2026 Neuroflow AI</span></div><div class="footer-bottom"><span>Intelligence, with intention.</span><div><a href="#faq">Privacy</a><a href="#faq">Security</a><a href="mailto:hello@neuroflow.ai">Contact ↗</a></div></div></footer>
+
+    <aside class="chat-widget" data-chat-widget><button class="chat-launcher" type="button" aria-label="Open Neuroflow assistant" aria-expanded="false"><span class="chat-spark">✦</span><span class="chat-ping"></span></button><div class="chat-panel" aria-hidden="true"><div class="chat-head"><span class="chat-avatar">N<span>F</span></span><span><strong>Neuroflow assistant</strong><small>Usually replies instantly</small></span><button class="chat-close" type="button" aria-label="Close assistant">×</button></div><div class="chat-body"><p class="chat-bubble">Hey — curious what you could make clearer with Neuroflow?</p><div class="chat-suggestions"><button type="button">How does it work?</button><button type="button">Is it secure?</button></div></div><form class="chat-form"><input type="text" placeholder="Ask anything…" aria-label="Ask the assistant" /><button type="submit" aria-label="Send message">↗</button></form></div></aside>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script><script src="/script.js" defer></script>
+  </body>
+</html>
